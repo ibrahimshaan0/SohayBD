@@ -1,0 +1,80 @@
+@import "tailwindcss";
+
+:root {
+  /* color */
+  --sbd-primary-color: #28A745;
+  --sbd-transparent: transparent;
+  --sbd-common-white: #FFFFFF;
+
+  /* typography */
+  --sbd-fz-h1: 100px;
+  --sbd-fz-h2: 48px;
+  --sbd-fz-body: 24px;
+
+  --sbd-lh-h1: 110%;
+  --sbd-lh-h2: 120%;
+  --sbd-lh-body: 130%;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.primary-btn {
+  padding: 12px 32px;
+  border: 2px solid var(--sbd-primary-color);
+  border-radius: 8px;
+  background: var(--sbd-primary-color);
+
+}
+
+.primary-btn:hover {
+  color: var(--sbd-common-white)
+    /* border: 2px solid var(--sbd-primary-color);
+  background: var(--sbd-transparent); */
+}
+
+.secondary-btn {
+  padding: 12px 32px;
+  border-radius: 8px;
+  border: 2px solid var(--sbd-primary-color);
+  background: var(--sbd-transparent);
+
+}
+
+.secondary-btn:hover {
+  border: 2px solid var(--sbd-transparent);
+  background: var(--sbd-primary-color);
+}
+
+h1 {
+  font-size: var(--sbd-fz-h1);
+  line-height: var(--sbd-lh-h1);
+  font-weight: 700;
+}
+
+h2 {
+  font-size: var(--sbd-fz-h2);
+  line-height: var(--sbd-lh-h2);
+  font-weight: 700;
+}
+
+body {
+  font-size: var(--sbd-fz-body);
+  line-height: var(--sbd-lh-body);
+  font-weight: 400;
+}
+
+.hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.5;
+  background-image: url('/home/hero/hero-bg.png');
+  background-size: cover;
+  background-position: center;
+}
