@@ -23,6 +23,7 @@
 
 .primary-btn {
   padding: 12px 32px;
+  color: var(--sbd-common-white);
   border: 2px solid var(--sbd-primary-color);
   border-radius: 8px;
   background: var(--sbd-primary-color);
@@ -30,7 +31,7 @@
 }
 
 .primary-btn:hover {
-  color: var(--sbd-common-white)
+  /* color: var(--sbd-common-white); */
     /* border: 2px solid var(--sbd-primary-color);
   background: var(--sbd-transparent); */
 }
@@ -45,6 +46,7 @@
 
 .secondary-btn:hover {
   border: 2px solid var(--sbd-transparent);
+  color: var(--sbd-common-white);
   background: var(--sbd-primary-color);
 }
 

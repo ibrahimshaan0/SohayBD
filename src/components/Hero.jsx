@@ -1,11 +1,15 @@
 import React from 'react'
-import heroImage from '/home/hero/heroImage.png'
 import heroBg from '/home/hero/hero-bg.png'
+import ourFlag from '/home/hero/bangladesh-map-flag.png'
+import heroImage from '/home/hero/hero-image.png'
 
 const Hero = () => {
     return (
         <section className="hero relative pt-[140px]">
             <div className="hero-bg"></div>
+            <div className="our-flag absolute top-0 right-0 mt-[100px]">
+                <img src={ourFlag} alt="bangladesh-flag-map" />
+            </div>
             <div className="container flex flex-row justify-between items-center">
                 <div className="left-content py-[262px]">
                     <h1 className='max-w-[1060px] mb-[16px]'>
