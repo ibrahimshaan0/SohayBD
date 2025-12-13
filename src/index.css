@@ -3,16 +3,21 @@
 :root {
   /* color */
   --sbd-primary-color: #28A745;
+  --sbd-secondary-color: #E6B800;
+  --sbd-accent-color: #FFF2CC;
+  --sbd-text-color: #1A1A1A;
   --sbd-transparent: transparent;
   --sbd-common-white: #FFFFFF;
 
   /* typography */
   --sbd-fz-h1: 100px;
   --sbd-fz-h2: 48px;
+  --sbd-fz-h3: 24px;
   --sbd-fz-body: 24px;
 
   --sbd-lh-h1: 110%;
   --sbd-lh-h2: 120%;
+  --sbd-lh-h3: 130%;
   --sbd-lh-body: 130%;
 }
 
@@ -32,7 +37,7 @@
 
 .primary-btn:hover {
   /* color: var(--sbd-common-white); */
-    /* border: 2px solid var(--sbd-primary-color);
+  /* border: 2px solid var(--sbd-primary-color);
   background: var(--sbd-transparent); */
 }
 
@@ -50,6 +55,14 @@
   background: var(--sbd-primary-color);
 }
 
+
+body {
+  font-size: var(--sbd-fz-body);
+  line-height: var(--sbd-lh-body);
+  color: var(--sbd-text-color);
+  font-weight: 400;
+}
+
 h1 {
   font-size: var(--sbd-fz-h1);
   line-height: var(--sbd-lh-h1);
@@ -62,10 +75,10 @@ h2 {
   font-weight: 700;
 }
 
-body {
-  font-size: var(--sbd-fz-body);
-  line-height: var(--sbd-lh-body);
-  font-weight: 400;
+h3 {
+  font-size: var(--sbd-fz-h3);
+  line-height: var(--sbd-lh-h3);
+  font-weight: 600;
 }
 
 .hero-bg {
