@@ -4,6 +4,9 @@ import Hero from './components/Hero.jsx'
 import Status from './components/Status.jsx'
 import FuturePlans from './components/FuturePlans.jsx'
 import DonationInfo from './components/DonationInfo.jsx'
+import VolunteerHome from './components/VolunteerHome.jsx'
+import CallToAction from './components/CallToAction.jsx'
+import Footer from './components/Footer.jsx'
 
 function App() {
 
@@ -14,6 +17,9 @@ function App() {
       <Status />
       <FuturePlans />
       <DonationInfo />
+      <VolunteerHome />
+      <CallToAction />
+      <Footer />
     </>
   )
 }

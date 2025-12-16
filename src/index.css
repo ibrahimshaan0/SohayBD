@@ -8,11 +8,14 @@
   --sbd-text-color: #1A1A1A;
   --sbd-transparent: transparent;
   --sbd-common-white: #FFFFFF;
+  --sbd-common-overlay: #D9D9D9;
 
   /* typography */
   --sbd-fz-h1: 100px;
+  /* h2 will be 60 */
   --sbd-fz-h2: 48px;
   --sbd-fz-h3: 24px;
+  --sbd-fz-h4: 24px;
   --sbd-fz-body: 24px;
 
   --sbd-lh-h1: 110%;
@@ -81,6 +84,12 @@ h3 {
   font-weight: 600;
 }
 
+h4 {
+  font-size: var(--sbd-fz-h4);
+  line-height: var(--sbd-lh-h3);
+  font-weight: 600;
+}
+
 .hero-bg {
   position: absolute;
   top: 0;
@@ -92,4 +101,9 @@ h3 {
   background-image: url('/home/hero/hero-bg.png');
   background-size: cover;
   background-position: center;
+}
+
+.custom-h3 {
+  font-size: 36px;
+  font-weight: bold;
 }

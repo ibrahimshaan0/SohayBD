@@ -5,7 +5,7 @@ import heroImage from '/home/hero/hero-image.png'
 
 const Hero = () => {
     return (
-        <section className="hero relative pt-[140px]">
+        <section className="hero relative pt-[120px]">
             <div className="hero-bg"></div>
             <div className="our-flag absolute top-0 right-52 mt-[110px]">
                 <img src={ourFlag} alt="bangladesh-flag-map" />
@@ -20,7 +20,7 @@ const Hero = () => {
                         Join us to bring hope and a better future to every poor and helpless soul
                     </p>
                     <div className="action-btns">
-                        <button className="primary-btn mr-2">Donate Now <i class="ri-hand-heart-fill"></i></button>
+                        <button className="primary-btn mr-2">Donate Now <i className="ri-hand-heart-fill"></i></button>
                         <button className="secondary-btn">Learn More</button>
                     </div>
                 </div>
